@@ -10,7 +10,7 @@ const buttonVariants = cva(
 		variants: {
 			variant: {
 				default:
-					"border border-primary rounded-md text-primary transition-all",
+					"border border-primary rounded-md text-primary transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-button px-6 py-4",
 				destructive:
 					"bg-destructive text-destructive-foreground rounded-md shadow-sm hover:bg-destructive/90",
 				outline:
@@ -18,12 +18,11 @@ const buttonVariants = cva(
 				secondary:
 					"bg-secondary text-secondary-foreground rounded-md shadow-sm hover:bg-secondary/80",
 				ghost: "hover:bg-accent rounded-md hover:text-accent-foreground",
-				link: "text-primary underline-offset-4 underline",
+				link: "text-secondary-2 text-base relative after:bg-secondary-2 after:absolute after:h-[1px] after:w-full after:bottom-0 after:left-0 hover:after:w-0 after:transition-all after:duration-300",
 			},
 			size: {
-				default:
-					"px-6 py-4 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-button",
-				sm: "px-5 py-3 text-xs hover:translate-y-[-2px] hover:translate-x-[-2px] hover:shadow-button-sm",
+				default: "",
+				sm: "px-5 py-3 text-xs",
 				lg: "h-10 rounded-md px-8",
 				icon: "h-10 w-10",
 			},
