@@ -2,6 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,6 +21,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${jetbrainsMono.className} dark container`}>
 				{children}
+				<Analytics />
 			</body>
 		</html>
 	);
