@@ -61,7 +61,7 @@ const Navbar = () => {
 						variant: "default",
 						size: "sm",
 					})}
-					href="https://twitter.com/inclinedadarsh"
+					href="https://youtube.com/playlist?list=PLFElhQj7sG90vTKYSmj_HpLONQRVO1VY6&feature=sharedh"
 				>
 					Watch on YouTube
 				</Link>

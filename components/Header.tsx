@@ -25,7 +25,7 @@ const Header = () => {
 			</p>
 			<div className="mt-12 flex gap-6 items-center justify-center">
 				<Link
-					href="/"
+					href="https://youtube.com/playlist?list=PLFElhQj7sG90vTKYSmj_HpLONQRVO1VY6&feature=shared"
 					className={`${buttonVariants({ variant: "default" })}`}
 				>
 					<Youtube strokeWidth={1.5} />
