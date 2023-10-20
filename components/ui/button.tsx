@@ -10,7 +10,7 @@ const buttonVariants = cva(
 		variants: {
 			variant: {
 				default:
-					"border border-primary rounded-md text-primary transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-button px-6 py-4",
+					"border border-primary rounded-md text-primary transition-all hover:-translate-y-1 hover:-translate-x-1 hover:shadow-button px-5 py-3 transition-all ease-in-out",
 				destructive:
 					"bg-destructive text-destructive-foreground rounded-md shadow-sm hover:bg-destructive/90",
 				outline:
