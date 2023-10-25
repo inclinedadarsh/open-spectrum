@@ -9,6 +9,11 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "**/*.(ts|tsx|js)": [
       "npm run lint"
