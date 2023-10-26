@@ -2,12 +2,14 @@
 
 ![github-banner](https://github.com/inclinedadarsh/open-spectrum/assets/84132532/79a72c43-6266-42f4-836c-9bbc09b5c9c2)
 
+[Visit the website](https://open-spectrum.vercel.app/)
+
 ## Participate
 
-- All the sessions will be live streamed on [WeMakeDevs' YouTube channel](https://www.youtube.com/@wemakedevs)
-- All the announcements will be made on [WeMakeDevs' Twitter](https://twitter.com/wemakedevs)
-- All the community calls will happen on [WeMakeDevs' Discord server](https://discord.gg/wemakedevs)
-- 
+-   All the sessions will be live streamed on [WeMakeDevs' YouTube channel](https://www.youtube.com/@wemakedevs)
+-   All the announcements will be made on [WeMakeDevs' Twitter](https://twitter.com/wemakedevs)
+-   All the community calls will happen on [WeMakeDevs' Discord server](https://discord.gg/wemakedevs)
+-
 
 ## Contribute
 
